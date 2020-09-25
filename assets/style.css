@@ -1,0 +1,102 @@
+* {
+    margin: 50;
+    padding: 50;
+  }
+  html {
+    height: 100%;
+  }
+  body {
+    background-image: url(./tea2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.808);
+    height: 100%;
+  }
+  .side-bar {
+    display: flex;
+    height: 100%;
+  }
+  .head-ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+    height: 600px;
+    width: 700px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    display: flex;
+  }
+  .header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height:100% ;
+  }
+  
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding-bottom: 10px;
+  }
+  .head-a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+  }
+  .title {
+    text-align: center;
+  }
+  .head-li {
+    display: inline;
+    padding: 15px;
+  }
+  .imgs {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    margin: 10px;
+  }
+  
+  .menu-title {
+    display: block;
+  }
+  
+  .sidebar {
+    width: 200px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.74);
+    border-radius: 20px;
+  }
+  .side-a {
+    text-decoration: none;
+    color: black;
+  }
+  .side-ul {
+    margin-left: 40px;
+    align-self: center;
+    justify-content: center;
+  }
+  h2 {
+    margin-right: 25px;
+  }
+  p {
+    text-align: center;
+  }
+  .side-li {
+    padding: 10px;
+    list-style-type: none;
+  }
+  
